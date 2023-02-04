@@ -13,6 +13,10 @@ def output():
         return redirect(url_for("index"))
 
     text = request.form['text']
+    
+    includespace = request.form.get('spaces')
+    
+    
     if text:
         text = text.upper()
     if text == "":
@@ -82,5 +86,11 @@ def output():
     output = " ".join(output)
     if text == None:
         output = "None"
+    
+    if includespace != "1":
+        output = output.replace("/", " ")
+    elif includespace == "1":
+        pass
+    
     return render_template('output.html', output=output)
 app.run(debug=True)
