@@ -1,0 +1,90 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: center;
+    padding: center;
+}
+.buttons {
+    margin-top: 50px;
+    margin-left: 15%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.checbox {
+    background-color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    margin-top: 50px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    margin-top: 50px;
+}
+
+
+form {
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.inputfield {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+.translatebutton {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left:  3rem;
+}
