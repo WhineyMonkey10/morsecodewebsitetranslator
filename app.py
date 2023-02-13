@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
+from waitress import serve
 
 app = Flask(__name__)
 
@@ -93,7 +94,7 @@ def output():
         pass
     
     return render_template('output.html', output=output)
-app.run(debug=True, port=5000)
+serve(app, port=5000, host='0.0.0.0', threads=1)
 
 
 
