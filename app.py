@@ -94,7 +94,10 @@ def output():
         pass
     
     return render_template('output.html', output=output)
-serve(app, port=5000, host='0.0.0.0', threads=1)
+
+if __name__ == '__main__':
+
+    serve(app, port=5000, host='0.0.0.0', threads=1)
 
 
 
