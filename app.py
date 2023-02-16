@@ -16,11 +16,7 @@ def output():
     text = request.form['text']
     
     includespace = request.form.get('spaces')
-    
-    if range(len(text)) > 1000:
-        return render_template('output.html', output="Maximum length is 1000 characters to prevent abuse.")
-    elif range(len(text)) <= 1000:
-        pass
+
 
     if text:
         text = text.upper()
